@@ -1,0 +1,39 @@
+body{
+    
+    background: url(bg3.jpg) no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+
+
+.textF{
+
+width: 60%;
+margin-top: 20px;
+background-color: rgba(255, 255, 255);
+
+}
+
+input{
+    padding: 20px;
+    border-radius: 10px;
+    border:none !important;
+}
+
+
+
+
+input[type="Submit"]{
+   border: 1px black;
+   background-color: bisque;
+   margin-inline-start: 30px;
+   margin-top: 20px;
+   
+
+
+
+}

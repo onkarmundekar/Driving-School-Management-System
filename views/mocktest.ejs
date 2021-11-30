@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/css/mocktest.css" rel="stylesheet" type="text/css">
+<style>
+
+</style>
+
+</head>
+
+<body>
+    <center>        <h1>Quiz1</h1></center>
+    <span style="color: whitesmoke">
+            
+        
+        <form name="myform" class="form">
+        Q1.Free passage should be given to the following types of the vehicles?<br>
+        <input type="radio" name="q1" value="a">Police Vehicles</br>
+        <input type="radio" name="q1" value="b">Ambulance and Fire services vehicles</br>
+        <input type="radio" name="q1" value="c">Express,Super Express Buses</br><br>
+
+        Q2.Vehicles proceding from opposite direction should be allowed to pass through?<br>
+        <input type="radio" name="q2" value="a">Your right side</br>
+        <input type="radio" name="q2" value="b">Your left side</br>
+        <input type="radio" name="q2" value="c">The convenient side</br><br>
+
+        Q3.Driver of a vehicle may overtake ... <br>
+        <input type="radio" name="q3" value="a">While driving downhill</br>
+        <input type="radio" name="q3" value="b">If the road is sufficiently wide</br>
+        <input type="radio" name="q3" value="c">when the driver of the vehicle in front shows the signal to overtake</br><br>
+
+        Q4.Driver of  a motor vehicle shall drive through?<br>
+        <input type="radio" name="q4" value="a">The right side of the road</br>
+        <input type="radio" name="q4" value="b">The left side of the road</br>
+        <input type="radio" name="q4" value="c">The center of the road</br><br>
+
+        Q5.When the vehicle is parked on the road side during night?<br>
+        <input type="radio" name="q5" value="a">The vehicle should be locked</br>
+        <input type="radio" name="q5" value="b">The person having licence to drive such a vehicle shhould be in the driver's seat</br>
+        <input type="radio" name="q5" value="c">The park light shall remain lit</br><br>
+
+        Q6.Fog lamps are used....?<br>
+        <input type="radio" name="q6" value="a">During Night</br>
+        <input type="radio" name="q6" value="b">When there is a mist</br>
+        <input type="radio" name="q6" value="c">When the opposite vehicle is not using the dim light</br><br>
+
+        Q7.Zebra lines are meant for?<br>
+        <input type="radio" name="q7" value="a">Stoping vehicle</br>
+        <input type="radio" name="q7" value="b">Pedestrians Crossing</br>
+        <input type="radio" name="q7" value="c">For giving preference to vehicle</br><br>
+
+
+        Q8.When the ambulance is approaching...<br>
+        <input type="radio" name="q8" value="a">Allow passage if there are no vehicles from front side</br>
+        <input type="radio" name="q8" value="b">No preference need be given</br>
+        <input type="radio" name="q8" value="c">The Driver shall allow free passage by drawing to theside of the road</br><br>
+
+
+        Q9.Red traffic light indicates...?<br>
+        <input type="radio" name="q9" value="a">Vehicle can proceed with caution</br>
+        <input type="radio" name="q9" value="b">Stop the vehicle</br>
+        <input type="radio" name="q9" value="c">Slow down</br><br>
+
+        Q10.Parking a vehicle in front of the entrance to hospital?<br>
+        <input type="radio" name="q10" value="a">Proper</br>
+        <input type="radio" name="q10" value="b">Improper</br>
+        <input type="radio" name="q10" value="c">Proper if NO PARKING sign is not provided</br><br>
+
+        <input type="button" value="submit" onclick="check()">
+    
+    </span>
+    </form>
+    <script>
+        function check() {
+            var q1=document.myform.q1.value;
+            var q2=document.myform.q2.value;
+            var q3=document.myform.q3.value;
+            var q4=document.myform.q4.value;
+            var q5=document.myform.q5.value;
+            var q6=document.myform.q6.value;
+            var q7=document.myform.q7.value;
+            var q8=document.myform.q8.value;
+            var q9=document.myform.q9.value;
+            var q10=document.myform.q10.value;
+            var count=0;
+
+            if (q1=="b"){
+                count++;
+            }
+            if (q2=="a"){
+                count++;
+            }
+            if (q3=="c"){
+                count++;
+            }
+            if (q4=="b"){
+                count++;
+            }
+            if (q5=="c"){
+                count++;
+            }
+            if (q6=="b"){
+                count++;
+            }
+            if (q7=="b"){
+                count++;
+            }
+            if (q8=="c"){
+                count++;
+            }
+            if (q9=="b"){
+                count++;
+            }
+            if (q10=="b"){
+                count++;
+            }
+            alert("You got "+count+" marks ");
+        
+        } 
+
+    </script>
+    <div class="form1">
+       <center> <h2>Quiz2</h2></center>
+    <form name="myform1" class="form">
+            Q.Where the slippery road sign is seen on the road ,the driver shall..<br>
+            <input type="radio" name="q1" value="a">Reduce the speed by changing the gear</br>
+            <input type="radio" name="q1" value="b">Apply brake</br>
+            <input type="radio" name="q1" value="c">Proceed in the same speed</br><br>
+    
+            Q.Overtaking is prohibited in following circumstances<br>
+            <input type="radio" name="q2" value="a">When it is likely to cause inconvenience or danger to other traffic</br>
+            <input type="radio" name="q2" value="b">When the vehicle in front is reducing speed</br>
+            <input type="radio" name="q2" value="c">during night</br><br>    
+
+
+            Q.Overtaking when approaching a bend<br>
+            <input type="radio" name="q3" value="a">is permissible</br>
+            <input type="radio" name="q3" value="b">Not permissible</br>
+            <input type="radio" name="q3" value="c">is permissible with care</br><br>
+
+            Q.Drunnken driving <br>
+            <input type="radio" name="q4" value="a">Allowed in private vehicles</br>
+            <input type="radio" name="q4" value="b">Allowed during night time</br>
+            <input type="radio" name="q4" value="c">Prohibited in all vehicles</br><br>
+
+            Q.Use of horn prohibited<br>
+            <input type="radio" name="q5" value="a">Mosque,Church and Temple</br>
+            <input type="radio" name="q5" value="b">Near Hospital,Couts of law</br>
+            <input type="radio" name="q5" value="c">Near police station</br><br>
+
+            Q.Rear view mirror is used<br>
+            <input type="radio" name="q6" value="a">For seeing Face</br>
+            <input type="radio" name="q6" value="b">For watching the traffic approaching frombehind</br>
+            <input type="radio" name="q6" value="c">For seeing the backseat passenger</br><br>
+
+            Q.Boarding in and akighting from a vehicle while in motion<br>
+            <input type="radio" name="q7" value="a">Permitted in bus</br>
+            <input type="radio" name="q7" value="b">Permitted in auto rickshaw</br>
+            <input type="radio" name="q7" value="c">Prohibited</br><br>
+
+            Q.Parking is permitted<br>
+            <input type="radio" name="q8" value="a">In turnings</br>
+            <input type="radio" name="q8" value="b">On footpaths</br>
+            <input type="radio" name="q8" value="c">Where parking is not prohibited</br><br>
+
+            Q.When fuel is filled in a vehicle <br>
+            <input type="radio" name="q9" value="a">Shall not check air pressure</br>
+            <input type="radio" name="q9" value="b">Shall not smoke</br>
+            <input type="radio" name="q9" value="c">Shall not use any light of vehicle</br><br>
+
+            Q.Validity of P.U.C.C Pollution under control certificate<br>
+            <input type="radio" name="q10" value="a">6 Months</br>
+            <input type="radio" name="q10" value="b">One Year</br>
+            <input type="radio" name="q10" value="c">Two Years</br><br>
+
+
+            <input type="button" value="submit" onclick="check1()">
+        
+        </span>
+        </form>
+        <script>
+            function check1() {
+                var q1=document.myform1.q1.value;
+                var q2=document.myform1.q2.value;
+                var q3=document.myform1.q3.value;
+                var q4=document.myform1.q4.value;
+                var q5=document.myform1.q5.value;
+                var q6=document.myform1.q6.value;
+                var q7=document.myform1.q7.value;
+                var q8=document.myform1.q8.value;
+                var q9=document.myform1.q9.value;
+                var q10=document.myform1.q10.value;
+                var count=0;
+    
+                if (q1=="a"){
+                    count++;
+                }
+                if (q2=="a"){
+                    count++;
+                }
+                if (q3=="b"){
+                    count++;
+                }
+                if (q4=="c"){
+                    count++;
+                }
+                if (q5=="b"){
+                    count++;
+                }
+                if (q6=="b"){
+                    count++;
+                }
+                if (q7=="c"){
+                    count++;
+                }
+                if (q8=="c"){
+                    count++;
+                }
+                if (q9=="b"){
+                    count++;
+                }
+                if (q10=="a"){
+                    count++;
+                }
+                alert("You got "+count+" marks ");
+            
+            } 
+    
+        </script>
+        </div>
+    </form>
+    </body>
+    </html>

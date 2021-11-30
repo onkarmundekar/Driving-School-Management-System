@@ -1,0 +1,112 @@
+body{
+    
+    background:black;
+    
+}
+h1{
+    color: whitesmoke;
+    background: grey;
+    
+    padding: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 450px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    height: 250px;
+    width: 300px;
+
+}
+.f1:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+}
+.f2:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+}
+.f3:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+}
+.f4:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+}
+.f5:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+}
+.f6:hover{
+    transform:scale(1.1);
+    transition: 0.6s;
+
+}
+
+.f1{
+    color: black;
+    margin-left: 100px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+}
+.f2{
+    color: black;
+    margin-left: 450px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+
+}
+.f3{
+    color: black;
+    margin-left: 800px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+
+}
+.f4{
+    color: black;
+    margin-left: 100px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.f5{color: black;
+    margin-left: 450px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+
+}
+.f6{
+    color: black;
+    margin-left: 800px;
+    background:yellowgreen;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+
+}

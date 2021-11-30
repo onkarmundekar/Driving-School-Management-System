@@ -1,0 +1,27 @@
+body{    
+        background: url(bg3.jpg) no-repeat;
+        background-size: cover;
+}
+h1{
+    font-size: 40px;
+    color: yellowgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}    
+.form{
+    margin-left: 10px;
+}
+.form ,.button{
+    font-size: 15px;
+    
+    padding: 15px 45px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    
+
+}
+h2{
+    font-size: 40px;
+    color: yellowgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

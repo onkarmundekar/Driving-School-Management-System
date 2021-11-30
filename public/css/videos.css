@@ -1,0 +1,17 @@
+body{
+    
+    background: url(bg3.jpg) no-repeat;
+    background-size: cover;
+}
+video{
+    height:200px;
+    width:400px;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 60px;
+}

@@ -1,0 +1,21 @@
+body{
+    
+    background: url(bg3.jpg) no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top:50px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info{
+    color:whitesmoke;
+    font-size: 30px;
+
+}
+.main{
+    color:whitesmoke;
+    margin-right: 20px;
+    margin-left: 20px;
+}

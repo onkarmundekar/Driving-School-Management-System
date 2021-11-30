@@ -1,0 +1,19 @@
+
+body{
+    
+        background: url(bg3.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    
+
+.contact{
+    margin-top:50px;
+    margin-left: 380px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background:#f5f599 ;
+    position: absolute;
+    padding: 10px;
+}
